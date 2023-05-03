@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke and Talk</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/a6680b4417.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- logo container -->
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+      <!-- navbr content -->
+      <div class="navbar-content">
+        <p>
+          Listen to Jokes or
+          <span class="mobile-nav-content">use Text-to-Speech</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Content Container -->
+    <div class="content-container">
+      <!-- GIF -->
+      <div class="gif">
+        <img src="robot.gif" alt="Gif" />
+        <div id="bars" hidden></div>
+      </div>
+
+      <!-- Joke Container -->
+      <div class="joke-container">
+        <button id="jokeBtn" class="joke-btn btn">Get Joke</button>
+      </div>
+
+      <!-- Text-to-Speech Container -->
+      <div class="text-to-speech-container">
+        <div class="text-to-speech">
+          <textarea
+            class="text-to-speech-input"
+            name="text"
+            id="text"
+            placeholder="Enter text to speak"
+            cols="38"
+            rows="8"
+          ></textarea>
+        </div>
+      </div>
+      <!-- Form with all voices -->
+      <form id="voices">
+        <select name="voice" id="voice-select" title="voice options">
+          <option>Select Voice</option>
+        </select>
+      </form>
+
+      <button id="ttsBtn" class="ttn-btn btn">
+        Speak <i class="fa-solid fa-play"></i>
+      </button>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
