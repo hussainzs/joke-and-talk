@@ -1,5 +1,5 @@
 # Joke and Talk - Hilarious Jokes and Customizable Text-to-Speech
-This creative project has two-fold functionalities. It produces jokes through a Joke API and speaks them through Speech Synthesis API. However, it can also be used as text-to-speech by typing whatever you want in the text box. With broad range of voices, accents and languages you can use this app in creative ways.
+Joke and Talk is a fun and creative project that offers a unique two-fold functionality: it generates jokes through a Joke API and converts them into speech using the Speech Synthesis API. In addition, it also serves as a text-to-speech app, allowing users to input any text they wish and hear it spoken aloud in a variety of voices, accents, and languages.
 
 ## Features 
 - Utilizes the Joke API (https://jokeapi.dev/) to automatically generate and speak hilarious jokes.
