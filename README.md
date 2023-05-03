@@ -12,7 +12,7 @@ This creative project has two-fold functionalities. It produces jokes through a 
 
 Getting started with Joke and Talk is a breeze. Here are the steps: 
 
-Visit or clone the repository and open index.html 
+Visit https://hussainzs.github.io/joke-to-speech/ or clone the repository and open index.html 
 
 1. Click the "Get Joke" button and a joke will be generated and spoken with a default voice. 
 2. Select any voice you want from the "Select Voice" button located below the text box to customize the voice for the spoken text. 
